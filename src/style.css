@@ -1,5 +1,4 @@
 body {
-  text-align: center;
   font-family: "Heebo", sans-serif;
   color: black;
   background: linear-gradient(to top, #f8ebfb 1%, #f0e6f6 5%, #f9f4f7 80%);
@@ -7,10 +6,10 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 520px;
   background: white;
   margin: 40px auto 15px;
-  padding: 30px;
+  padding: 40px;
   border-radius: 8px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -25,6 +24,7 @@ select {
 
 h1 {
   margin: 0;
+  text-align: center;
   font-size: 35px;
 }
 
@@ -33,6 +33,10 @@ h2 {
   font-weight: 500;
   text-align: left;
   margin: 0;
+}
+
+footer {
+  text-align: center;
 }
 
 small {
@@ -72,4 +76,5 @@ a {
 .time small {
   font-size: 25px;
   font-weight: 300;
+  opacity: 1;
 }
