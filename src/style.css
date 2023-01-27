@@ -58,6 +58,7 @@ a {
 
 .city:last-child {
   border: none;
+  padding: 25px 0 10px 0;
 }
 .date {
   font-size: 14px;
@@ -77,4 +78,17 @@ a {
   font-size: 25px;
   font-weight: 300;
   opacity: 1;
+}
+
+.back {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(0, 0, 0, 0.5);
+  position: relative;
+  top: 15px;
+  margin-bottom: 20px;
+}
+
+.back:hover {
+  text-decoration: underline;
 }
